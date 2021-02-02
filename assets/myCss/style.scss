@@ -1,0 +1,126 @@
+$color-primary:#273c75;
+$color-accent:#3498db;
+    body,html{
+        
+     margin:0;
+     padding: 0;
+     
+     height: 100vh;
+     background-color: #3fc7e3;
+     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%233fc7e3'/%3E%3Cstop offset='1' stop-color='%23f7feff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23f7fff9' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23f7fff9' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23f7fff9' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23f7fff9' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+     background-attachment: fixed;
+     background-size: cover;
+    }
+
+#header
+{
+      .container-fluid
+      { background-color: #fff;
+         .row
+         {   background-color:#fff;
+              border:0.1px solid silver;
+              padding-bottom: 0;
+            .col
+             {
+              padding-top: 1px;
+
+             }
+        }
+      }
+
+      
+    
+}
+//------------------------------------------------------------------------------------------------------------
+ #main
+{  /* For Home Page*/
+   .top-section
+   {
+     background-color:$color-accent;
+          .container
+             { 
+             color:#fff;
+             font-family: Comic Sans Ms;
+             }
+         
+   }
+
+   .qualities-section
+   {
+    font-family: 'Fjalla One', sans-serif;
+    .col
+      {
+         padding: 10px;
+      }
+   }
+  
+   .requirement
+   {
+     background-color: $color-primary;
+     padding: 10px;
+     margin-bottom: 10px;
+     color: #fff;
+   }
+   
+   .about
+   {
+     padding: 10px;
+     padding-bottom: 30px;
+  
+   }
+
+  .newsletter
+  {
+    background-color:$color-primary;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    color:#fff;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  
+  .best-services
+  {
+    margin-bottom: 10px;
+    .row
+    {
+      padding-bottom: 15px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .trusted-client
+  {
+    background-color:#ecf0f1;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  /* --------------------------------------------------------------*/
+  /* For About US page*/
+
+  /*For portfolio page---------------------------*/
+ .portfolio-ourwork
+ {
+  font-family: 'Fjalla One', sans-serif;
+ }
+2
+}
+
+// ------------------------------------------------
+#footer
+{
+  bottom: 0;
+  width:100%;
+  background-color:$color-primary;
+  color:#fff;
+  .container-fluid
+  {
+   img{
+    
+        max-width: 150px;
+      }
+    .CopyWrite
+     {
+       background-color:#222f3e;
+     }
+  }
+}
