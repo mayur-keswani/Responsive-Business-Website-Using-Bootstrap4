@@ -1,8 +1,10 @@
 # Responsive Business Website Using Bootstrap4
 I have tried to build a responsive, mobile-first projects on the web suitable for businesses, startups, and agencies.
 
+ _preview_: https://mayur-keswani.github.io/Responsive-Business-Website-Using-Bootstrap4/
+
 ## To Run
-do git clone of the repository https://github.com/mayur-keswani/Responsive-Business-Website-Using Bootstrap4.git.
+do git clone of the repository https://github.com/mayur-keswani/Responsive-Business-Website-Using-Bootstrap4.git.
 
 ## Assets 🔨
  - Bootstrap cdn
